@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458916B82B77AECE00FFF63B /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458916B72B77AECE00FFF63B /* CustomTab.swift */; };
+		458916BA2B77F0D400FFF63B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458916B92B77F0D400FFF63B /* Filter.swift */; };
 		4593A1F32B72CBF8004D92AC /* travelappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593A1F22B72CBF8004D92AC /* travelappApp.swift */; };
 		4593A1F52B72CBF8004D92AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593A1F42B72CBF8004D92AC /* ContentView.swift */; };
 		4593A1F72B72CBF9004D92AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4593A1F62B72CBF9004D92AC /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		458916B72B77AECE00FFF63B /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
+		458916B92B77F0D400FFF63B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		4593A1EF2B72CBF8004D92AC /* travelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4593A1F22B72CBF8004D92AC /* travelappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelappApp.swift; sourceTree = "<group>"; };
 		4593A1F42B72CBF8004D92AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		458916B62B77AEB900FFF63B /* components */ = {
+			isa = PBXGroup;
+			children = (
+				458916B72B77AECE00FFF63B /* CustomTab.swift */,
+				458916B92B77F0D400FFF63B /* Filter.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		4593A1E62B72CBF8004D92AC = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +64,7 @@
 		4593A1F12B72CBF8004D92AC /* travelapp */ = {
 			isa = PBXGroup;
 			children = (
+				458916B62B77AEB900FFF63B /* components */,
 				4593A1F22B72CBF8004D92AC /* travelappApp.swift */,
 				4593A1F42B72CBF8004D92AC /* ContentView.swift */,
 				4593A1F62B72CBF9004D92AC /* Assets.xcassets */,
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458916B82B77AECE00FFF63B /* CustomTab.swift in Sources */,
+				458916BA2B77F0D400FFF63B /* Filter.swift in Sources */,
 				4593A1F52B72CBF8004D92AC /* ContentView.swift in Sources */,
 				4593A1F32B72CBF8004D92AC /* travelappApp.swift in Sources */,
 			);
