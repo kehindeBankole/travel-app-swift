@@ -64,6 +64,69 @@
                   endingLineNumber = "22"
                   offsetFromSymbolStart = "112">
                </Location>
+               <Location
+                  uuid = "E67D854D-2CFF-4E2F-9784-854D5409031D - 58b40ece3b1af029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "travelapp.ContentView.body.getter : some"
+                  moduleName = "travelapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/travelapp/travelapp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13A99DAD-E5C2-4DE9-852A-65808B3029CE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "travelapp/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "13A99DAD-E5C2-4DE9-852A-65808B3029CE - 58b40ece3b1af029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "travelapp.ContentView.body.getter : some"
+                  moduleName = "travelapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/travelapp/travelapp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "13A99DAD-E5C2-4DE9-852A-65808B3029CE - a5f3ca0bd4a4676d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.ignoresSafeArea(_: SwiftUI.SafeAreaRegions, edges: SwiftUI.Edge.Set) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0)&gt; in travelapp.ContentView.body.getter : some"
+                  moduleName = "travelapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/travelapp/travelapp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "220">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4506EB682B7FFD5D000E7B52 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EB672B7FFD5D000E7B52 /* Food.swift */; };
+		4506EB6B2B8009DD000E7B52 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4506EB6A2B8009DD000E7B52 /* DetailView.swift */; };
 		458916B82B77AECE00FFF63B /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458916B72B77AECE00FFF63B /* CustomTab.swift */; };
 		458916BA2B77F0D400FFF63B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458916B92B77F0D400FFF63B /* Filter.swift */; };
 		4593A1F32B72CBF8004D92AC /* travelappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4593A1F22B72CBF8004D92AC /* travelappApp.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4506EB672B7FFD5D000E7B52 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		4506EB6A2B8009DD000E7B52 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		458916B72B77AECE00FFF63B /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
 		458916B92B77F0D400FFF63B /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		4593A1EF2B72CBF8004D92AC /* travelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +45,7 @@
 			children = (
 				458916B72B77AECE00FFF63B /* CustomTab.swift */,
 				458916B92B77F0D400FFF63B /* Filter.swift */,
+				4506EB672B7FFD5D000E7B52 /* Food.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -69,6 +74,7 @@
 				4593A1F42B72CBF8004D92AC /* ContentView.swift */,
 				4593A1F62B72CBF9004D92AC /* Assets.xcassets */,
 				4593A1F82B72CBF9004D92AC /* Preview Content */,
+				4506EB6A2B8009DD000E7B52 /* DetailView.swift */,
 			);
 			path = travelapp;
 			sourceTree = "<group>";
@@ -152,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				458916B82B77AECE00FFF63B /* CustomTab.swift in Sources */,
+				4506EB6B2B8009DD000E7B52 /* DetailView.swift in Sources */,
 				458916BA2B77F0D400FFF63B /* Filter.swift in Sources */,
+				4506EB682B7FFD5D000E7B52 /* Food.swift in Sources */,
 				4593A1F52B72CBF8004D92AC /* ContentView.swift in Sources */,
 				4593A1F32B72CBF8004D92AC /* travelappApp.swift in Sources */,
 			);
