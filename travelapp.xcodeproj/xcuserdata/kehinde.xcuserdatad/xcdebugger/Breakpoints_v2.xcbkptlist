@@ -14,8 +14,8 @@
             filePath = "travelapp/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "body"
             landmarkType = "24">
             <Locations>
@@ -48,6 +48,21 @@
                   startingLineNumber = "12"
                   endingLineNumber = "12"
                   offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "E67D854D-2CFF-4E2F-9784-854D5409031D - 58b40ece3b1af0eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "travelapp.ContentView.body.getter : some"
+                  moduleName = "travelapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kehinde/Desktop/kehinde/travelapp/travelapp/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "112">
                </Location>
             </Locations>
          </BreakpointContent>

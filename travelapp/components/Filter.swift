@@ -19,7 +19,7 @@ FilterModel(name: "Tickets", icon: "airplane"),
 ]
 
 struct Filter: View {
-    @State private var currentFilter:FilterModel? = nil
+    @State private var currentFilter:FilterModel? = filters[0]
     var body: some View {
         HStack{
             ScrollView(.horizontal , showsIndicators: false){
