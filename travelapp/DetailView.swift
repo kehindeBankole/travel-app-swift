@@ -7,24 +7,38 @@
 
 import SwiftUI
 
+let images = ["bg" , "kakashi" , "gojo"]
+
 struct DetailView: View {
+    @State private var currentView = images[0]
+    @State private var currentIndex = 0
     var body: some View {
         
-
-            
-            
             ZStack(alignment: .bottom){
+
+                ScrollView{
+                    TabView(selection: $currentView){
+                        ForEach(images , id:\.self){item in
+                            Image(item).resizable().scaledToFill().frame(maxWidth: .infinity).tag(item)
+                        }
+                    }
+                    .frame( width: UIScreen.main.bounds.width , height: UIScreen.main.bounds.height)
+                    .tabViewStyle(PageTabViewStyle())
+                    .onChange(of: currentView){ old , new in
+                        withAnimation{
+                            currentIndex = images.firstIndex(of: new)!
+                        }
+                    }
+                }.edgesIgnoringSafeArea(.all)
                 
                 
- 
-                    Image("bg").resizable().frame(maxWidth: .infinity).edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
   
                 VStack{
                     
                     HStack{
                         
-                        ForEach(0..<5){item in
-                            let isItem = item == 2
+                        ForEach(0..<images.count ,  id: \.self){item in
+                            let isItem = item == currentIndex
                             ZStack{
                                 if(isItem){
                                     Circle().fill(.white.opacity(0.3)).frame(width: 13 , height: 13)
