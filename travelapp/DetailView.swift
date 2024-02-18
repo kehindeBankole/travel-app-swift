@@ -19,7 +19,7 @@ struct DetailView: View {
                 ScrollView{
                     TabView(selection: $currentView){
                         ForEach(images , id:\.self){item in
-                            Image(item).resizable().scaledToFill().frame(maxWidth: .infinity).tag(item)
+                            Image(item).resizable().frame(maxWidth: .infinity).transition(.slide).tag(item)
                         }
                     }
                     .frame( width: UIScreen.main.bounds.width , height: UIScreen.main.bounds.height)
